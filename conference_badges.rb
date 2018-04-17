@@ -10,7 +10,7 @@ end
 
 def assign_rooms(array)
   array.each_with_index.map do |name, number|
-    puts "Hello #{name}! You'll be assigned to room #{number + 1}!"
+    "Hello #{name}! You'll be assigned to room #{number + 1}!"
   end
 end
 
